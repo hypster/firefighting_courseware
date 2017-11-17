@@ -11,6 +11,11 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import 'jquery-ui/themes/base/base.css';
+import 'jquery-ui/themes/base/core.css';
+import 'jquery-ui/themes/base/theme.css';
+import 'jquery-ui/themes/base/dialog.css';
+
 Vue.use(BootstrapVue)
 /* eslint-disable no-new */
 new Vue({
