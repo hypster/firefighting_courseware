@@ -7,7 +7,7 @@
     <div class="content">
       <slot name="content"></slot>
     </div>
-    <sprite class="sprite" :gif='gif' :spriteStatic='spriteStatic' :audio='audio'></sprite>
+    <sprite class="sprite" :audio='audio'></sprite>
     <router-link :to='{name: "mainMenu"}'>
       <v-button>
         <h3 class="return">返 回</h3>
@@ -27,14 +27,7 @@ import spriteHoseStatic from '@/components/sprite_hose_static.png'
       }
     },
     props: {
-      gif: {
-        default: spriteHose,
-        type: String
-      },
-      spriteStatic: {
-        default: spriteHoseStatic,
-        type: String,
-      },
+      
       audio: {
         type: String
       }

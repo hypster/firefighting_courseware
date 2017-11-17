@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-      <sprite class="sprite" :gif="require('./sprite_copy.gif')" :spriteStatic="require('./sprite_static.png')" :audio="require('@/audio/01-首页面.mp3')"></sprite>
+      <sprite class="sprite" :spriteUrl="require('./sprite_main_comp.png')" :showSprite1='false' :audio="require('@/audio/01-首页面.mp3')"></sprite>
       <router-link tag="div" :to="{name: 'mainMenu'}">
         <v-button class="escape">
           <img src="./escape.png" alt="">
