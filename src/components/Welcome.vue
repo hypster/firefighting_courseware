@@ -31,7 +31,7 @@ import VButton from '@/components/Button'
     position absolute
     left 50%
     transform translate(-50%)
-    top 35%
+    top 42%
   .escape 
     position absolute
     top 77%
